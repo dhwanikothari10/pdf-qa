@@ -1,6 +1,6 @@
 streamlit
 python-dotenv
-langchain>=0.2.0
+langchain>=1.0.5
 langchain-community
 langchain-core
 langchain-google-genai
@@ -10,3 +10,4 @@ sentence transformers
 faiss-cpu
 huggingface-hub
 google-generativeai
+
