@@ -2,7 +2,7 @@ import streamlit as st
 import os
 #from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -87,4 +87,5 @@ else:
 
 # Footer
 st.markdown("---")
+
 st.caption("Built with ❤️ using Streamlit, LangChain, FAISS, HuggingFace & Gemini")
