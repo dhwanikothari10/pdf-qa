@@ -1,6 +1,6 @@
 streamlit
 python-dotenv
-langchain-text-splitters
+langchain-text-splitter
 langchain-community
 langchain-core
 langchain-google-genai
@@ -11,4 +11,5 @@ sentence-transformers
 huggingface-hub
 google-generativeai
 langchain
+
 
