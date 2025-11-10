@@ -1,13 +1,14 @@
 streamlit
 python-dotenv
-langchain>=1.0.5
+langchain-text-splitters
 langchain-community
 langchain-core
 langchain-google-genai
 langchain-huggingface
 PyPDF2
-sentence transformers
 faiss-cpu
+sentence-transformers
 huggingface-hub
 google-generativeai
+langchain
 
